@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A12EB13823F3527200E76B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12EB13723F3527200E76B1C /* AppDelegate.swift */; };
-		A12EB13A23F3527200E76B1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12EB13923F3527200E76B1C /* SceneDelegate.swift */; };
 		A12EB13C23F3527200E76B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12EB13B23F3527200E76B1C /* ViewController.swift */; };
 		A12EB13F23F3527200E76B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12EB13D23F3527200E76B1C /* Main.storyboard */; };
 		A12EB14123F3527300E76B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12EB14023F3527300E76B1C /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		A12EB13423F3527200E76B1C /* IMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12EB13723F3527200E76B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A12EB13923F3527200E76B1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A12EB13B23F3527200E76B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A12EB13E23F3527200E76B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12EB14023F3527300E76B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				A12EB13723F3527200E76B1C /* AppDelegate.swift */,
-				A12EB13923F3527200E76B1C /* SceneDelegate.swift */,
 				A12EB13B23F3527200E76B1C /* ViewController.swift */,
 				A12EB14B23F352BD00E76B1C /* IMCCalculator.swift */,
 				A12EB13D23F3527200E76B1C /* Main.storyboard */,
@@ -144,7 +141,6 @@
 				A12EB13C23F3527200E76B1C /* ViewController.swift in Sources */,
 				A12EB14C23F352BD00E76B1C /* IMCCalculator.swift in Sources */,
 				A12EB13823F3527200E76B1C /* AppDelegate.swift in Sources */,
-				A12EB13A23F3527200E76B1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
