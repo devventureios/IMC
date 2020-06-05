@@ -15,8 +15,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculate(_ sender: Any?) {
-        if let weight = Double(tfWeight.text!), let height = Double(tfHeight.text!) {
-            let imc = IMCCalculator(weight: weight, height: height)
+        let numberFormatter = NumberFormatter()
+        if let weight = numberFormatter.number(from: tfWeight.text!)?.doubleValue,
+           let height = numberFormatter.number(from: tfHeight.text!)?.doubleValue {
+           let imc = IMCCalculator(weight: weight, height: height)
             showResults(for: imc)
         } else {
             showError()
